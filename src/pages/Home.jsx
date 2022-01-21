@@ -1,10 +1,15 @@
 import React from "react";
 
-import Hero from "../components/Banner";
+import Banner from "../components/Banner";
+import Carousel from "../components/Carousel";
 
 function Home() {
     return(
-        <Hero/>
+        <div>
+            <Banner/>
+            <Carousel/>
+        </div>
+        
     );
 }
 

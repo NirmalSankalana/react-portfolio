@@ -5,9 +5,9 @@ import { Container, Nav, Navbar} from 'react-bootstrap';
 
 import Footer from './components/Footer';
 
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 
 class App extends React.Component{
@@ -16,7 +16,7 @@ class App extends React.Component{
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Navbar className="border-bottom navigation" bg="transparent" expand="lg">
             <Navbar.Brand> Nirmal Sankalana </Navbar.Brand>
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle'/>
             <Navbar.Collapse id='navbar-toggle'>

@@ -1,7 +1,7 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 
-function Hero() { 
+function Banner() { 
     return(
         <div className="bg-transparent p-0">
             <Container fluid={true}>
@@ -17,4 +17,4 @@ function Hero() {
     );
  }
 
- export default Hero;
+ export default Banner;

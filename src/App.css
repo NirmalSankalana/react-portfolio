@@ -1,7 +1,11 @@
-/* *Hiding vertical scrollbar */
-body {
-  overflow: hidden;
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
+
+
+/* *Hiding vertical scrollbar */
 body::-webkit-scrollbar {
   width: 0 !important;
 }
