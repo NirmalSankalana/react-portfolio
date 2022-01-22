@@ -16,7 +16,7 @@ class App extends React.Component{
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom navigation" bg="transparent" expand="lg">
+          <Navbar className=" border-bottom px-3 px-md-4 px-lg-5" expand="lg" fixed="top" bg="light" variant="light">
             <Navbar.Brand> Nirmal Sankalana </Navbar.Brand>
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle'/>
             <Navbar.Collapse id='navbar-toggle'>

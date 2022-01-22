@@ -4,7 +4,7 @@ import {Container, Row, Col} from "react-bootstrap";
 function Banner() { 
     return(
         <div className="bg-transparent p-0">
-            <Container fluid={true}>
+            <Container fluid={true} className="py-5">
                 <Row className="justify-content-center py-5">
                     <Col md={8}>
                         <h1 className="display-1 font-weight-bolder">Hi I'm Nirmal Sankalana</h1>
