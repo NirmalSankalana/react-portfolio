@@ -1,4 +1,4 @@
-This it a project I have done as a assignment for **"Getting Started with react"** bootcamp done by [DevTown](https://www.devtown.in/).
+This is a project I have done as a assignment for **"Getting Started with react"** bootcamp done by [DevTown](https://www.devtown.in/).
 
 ## Getting Started with Create React App
 
